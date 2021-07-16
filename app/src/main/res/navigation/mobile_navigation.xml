@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.project.cmcontractor.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/navigateToContractor"
+            app:destination="@id/nav_contractor" />
+        <action
+            android:id="@+id/navigateToLoginFromHome"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.project.cmcontractor.fragments.OrdersFragment"
+        android:label="Contracts"
+        tools:layout="@layout/fragment_orders" >
+        <action
+            android:id="@+id/navigateToViewOrder"
+            app:destination="@id/viewOrderFragment" />
+        <action
+            android:id="@+id/navigateToLoginFromOrders"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.project.cmcontractor.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/navigateToLoginFromSettings"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_contractor"
+        android:name="com.project.cmcontractor.fragments.ContractorFragment"
+        android:label="Contractor"
+        tools:layout="@layout/fragment_contractor" >
+        <argument
+            android:name="plan_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/navigateToPortfolioFragment"
+            app:destination="@id/contractorPortfolioFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetFragment"
+        android:name="com.project.cmcontractor.fragments.BottomSheetFragment"
+        android:label="fragment_bottom_sheet"
+        tools:layout="@layout/fragment_bottom_sheet" >
+        <argument
+            android:name="companyid"
+            app:argType="string" />
+        <argument
+            android:name="planname"
+            app:argType="string" />
+        <argument
+            android:name="consultation_fee"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="cost_month"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="least_duration"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/navigateToLoginFromBottom"
+            app:destination="@id/loginFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.project.cmcontractor.fragments.LoginFragment"
+        android:label="Login Fragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/navigateToCreate"
+            app:destination="@id/createAccountFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/createAccountFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="companyid"
+            app:argType="string" />
+        <argument
+            android:name="planname"
+            app:argType="string" />
+        <action
+            android:id="@+id/navigateToPortfolioFromLogin"
+            app:destination="@id/contractorPortfolioFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.project.cmcontractor.fragments.CreateAccountFragment"
+        android:label="Create Account"
+        tools:layout="@layout/fragment_create_account">
+        <argument
+            android:name="companyid"
+            app:argType="string" />
+        <argument
+            android:name="planname"
+            app:argType="string" />
+        <action
+            android:id="@+id/navigateToPortfolioFromCreate"
+            app:destination="@id/contractorPortfolioFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/contractorPortfolioFragment"
+        android:name="com.project.cmcontractor.fragments.ContractorPortfolioFragment"
+        android:label="Contract Portfolio"
+        tools:layout="@layout/fragment_contractor_portfolio">
+        <argument
+            android:name="company_id"
+            app:argType="string" />
+        <argument
+            android:name="plan_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/navigateToBottom"
+            app:destination="@id/bottomSheetFragment" />
+        <action
+            android:id="@+id/action_contractorPortfolioFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewOrderFragment"
+        android:name="com.project.cmcontractor.fragments.ViewOrderFragment"
+        android:label="View Order"
+        tools:layout="@layout/fragment_view_order" >
+        <argument
+            android:name="ref_key"
+            app:argType="string" />
+        <argument
+            android:name="company_name"
+            app:argType="string" />
+    </fragment>
+</navigation>
