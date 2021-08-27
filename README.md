@@ -8,7 +8,7 @@ Check more details on [C&M Contractor App](https://github.com/brayomugo15/CnM_Ad
 
 ## Table of Contents
 - [Getting Started](#Getting)
-- [Related Topics](#Related)
+- [Related Posts](#Related)
 
 ## Getting Started
 - [Setting Up](#Setting)
@@ -16,12 +16,16 @@ Check more details on [C&M Contractor App](https://github.com/brayomugo15/CnM_Ad
 - [Libraries](#Libraries)
 
 ### Setting Up
+Download [Android Studio](https://developer.android.com/studio) and set up up environment<br/>
+Application is written entirely on **Java**, check out more from [Google developer guide](https://developer.android.com/guide) <br/>
+You can then [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) or [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) the project into your android studio environment.
+
 
 ### Permissions
 
 ### Libraries
 
-## Related Topics
+## Related Posts
 
 ### Screenshots
 
