@@ -7,10 +7,11 @@ This specific app allows clients or prospective clients to view available constr
 Check more details on [C&M Contractor App](https://github.com/brayomugo15/CnM_Admin)
 
 ## Table of Contents
-- [Getting Started](#Getting)
-- [Related Posts](#Related)
+- [Prerequisite](#Prerequisite)
+- [Related Resources](#Related)
+- [Contributors](#Contributors)
 
-## Getting Started
+## Prerequisite
 - [Setting Up](#Setting)
 - [Libraries](#Libraries)
 
@@ -29,28 +30,29 @@ Check more details on [C&M Contractor App](https://github.com/brayomugo15/CnM_Ad
 
 ## Related Posts
 
-### Screenshots
 
-#### Account
+## Screenshots
+
+### Account
 
 Login                 | Create Account
 :--------------------:|:------------------------:
 <img src="https://user-images.githubusercontent.com/39495725/131105035-2c2e9b16-9156-4826-b591-2241b9106890.jpg" width="250" height="450"> | <img src="https://user-images.githubusercontent.com/39495725/131087451-f417b3dc-b226-4e27-aad8-d3c168a34b24.jpg" width="250" height="450">
 
-#### Home
+### Home
 
 <img src="https://user-images.githubusercontent.com/39495725/131087428-1637481c-38cc-4144-aacc-e0a5de31066f.jpg" width="250" height="450">
 
-#### Contractors providing service
+### Contractors providing service
 <img src="https://user-images.githubusercontent.com/39495725/131087436-6e53cad0-dced-4e49-b0f5-f992f2929074.jpg" width="250" height="450">
 
-#### Contractor Profile
+### Contractor Profile
 <img src="https://user-images.githubusercontent.com/39495725/131087441-9ef10e70-8c7b-4335-a8a7-d5f246f5214a.jpg" width="250" height="450"> | <img src="https://user-images.githubusercontent.com/39495725/131087443-2aea609c-5d4d-4518-8d87-d59e8602a868.jpg" width="250" height="450"> | <img src="https://user-images.githubusercontent.com/39495725/131087447-c522404a-bb6e-4065-9a06-1b8db491def6.jpg" width="250" height="450">
 
-#### Contracts List
+### Contracts List
 <img src="https://user-images.githubusercontent.com/39495725/131087454-2531c714-75cd-499f-81e7-4a139aa38b34.jpg" width="250" height="450">
 
-#### Contract 
+### Contract 
 <img src="https://user-images.githubusercontent.com/39495725/131087456-0973eed2-e7f5-4892-b852-a87caefc2c0a.jpg" width="250" height="450">
 
 
