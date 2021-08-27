@@ -8,20 +8,26 @@ Check more details on [C&M Contractor App](https://github.com/brayomugo15/CnM_Ad
 
 ## Table of Contents
 - [Getting Started](#Getting)
-- [Related Topics](#Related)
+- [Related Posts](#Related)
 
 ## Getting Started
 - [Setting Up](#Setting)
-- [Permissions](#Permissions)
 - [Libraries](#Libraries)
 
 ### Setting Up
-
-### Permissions
+- Download [Android Studio](https://developer.android.com/studio) and set up up environment
+- Application is written entirely on **Java**, check out more from [Google developer guide](https://developer.android.com/guide) 
+- You can then [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) or [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) the project into your android studio environment.
+- Build and run the application
 
 ### Libraries
+- [Firebase](https://console.firebase.google.com/)
+- [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started)
+- [Mpesa Api](https://developer.safaricom.co.ke/)
+- [Circular Image View](https://github.com/hdodenhof/CircleImageView)
+- [Glide](https://github.com/bumptech/glide)
 
-## Related Topics
+## Related Posts
 
 ### Screenshots
 
