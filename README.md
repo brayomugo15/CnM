@@ -33,7 +33,7 @@ Check more details on [C&M Contractor App](https://github.com/brayomugo15/CnM_Ad
 
 ## Screenshots
 
-### Account
+#### Account Screens
 
 Login                 | Create Account
 :--------------------:|:------------------------:
