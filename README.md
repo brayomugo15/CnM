@@ -1,4 +1,4 @@
-# CnM App - Android Mobile Application (for clients)
+# CnM App - Mobile Application (for clients)
 
 The aim of the app is to bridge the gap between customers seeking construction contractors and contractors. Acts as a market place for contractors. Provides a quick and convenient way to connect the two parties.
 
